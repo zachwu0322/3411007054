@@ -41,6 +41,18 @@
         u1~p{
             color: yellow;
         }
+        /*偽類選擇器(使用:符號)*/
+        a:hover{
+            color: red;
+        }
+        /*偽元素選擇器(使用::符號)「在標題的結尾插入文字」*/
+        div::after{
+            content:"結束";
+        }
+        /*群組選擇器(使用,符號)*/
+        ul li,ol li{
+            color: orange;
+        }
     </style>
 </head>
 <body>
@@ -96,5 +108,23 @@
         <p>tt2</p>
         <p>tt3</p>
     <hr>
+    <h2>偽類選擇器(使用:符號)</h2>
+    <a href="#">偽類選擇器</a>
+    <hr>
+    <h2>偽元素選擇器(使用::符號)</h2>
+    <div>
+        測試
+    </div>
+    <h2>群組選擇器(使用,符號)</h2>
+    <ul>
+        <li >01</li>
+        <li >02</li>
+        <li >03</li>
+    </ul>
+    <ol>
+        <li>01</li>
+        <li>02</li>
+        <li>03</li>
+    </ol>
 </body>
 </html>
