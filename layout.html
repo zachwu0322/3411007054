@@ -10,15 +10,95 @@
             display: inline-block;
             width: 100px;
             height: 100px;
-            background-color: yellow;
-            color: orangered;
+            background-color: blueviolet;
+            color: aquamarine;
         }
+        /*相對位置*/
+        #box2{
+            position: relative;
+            top: 20px;
+            left: 20px;
+            background-color: blue;
+        }
+         /*絕對位置*/
+         #box3{
+            position: absolute;
+            top: 180px;
+            left: 20px;
+            background-color: mediumorchid;
+         }
+         /*浮動*/
+         .title{
+             border: 1px solid;
+             height: 150px;
+         }
+         .left{
+             float: left;
+             background-color: orangered;
+             width: 50px;
+             height: 150px;
+         }
+         .right{
+             float: right;
+             background-color: brown;
+             width: 50px;
+             height: 150px;
+         }
+         /*z-index*/
+         .img{
+             position: relative;
+             left: 0px;
+             top: 0px;
+             z-index: -1;
+         }
+         .overflow{
+             border: 1px solid;
+             height: 100px;
+             width: 200px;
+             overflow: scroll;
+         }
     </style>
 </head>
 <body>
+    <!--z-index-->
+    <div>
+        123
+        <img class="img" src="https://fakeimg.pl/100x100/">
+    </div>
+    <br><br><br>
+    <br><br><br>
     <div class="box" id="box1">box1</div>
     <div class="box" id="box2">box2</div>
     <div class="box" id="box3">box3</div>
     <div class="box" id="box4">box4</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="title">
+        <div class="left">left</div>
+        <div class="right">right</div>
+        <!--lorem*4-->
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas nihil rerum veritatis, ut sapiente voluptatem ducimus vero similique, alias excepturi doloribus necessitatibus soluta, cupiditate atque quo maiores corrupti nulla commodi.
+        Repudiandae, incidunt sequi. In optio velit mollitia porro odit nulla quidem hic officia ducimus rem, enim rerum adipisci obcaecati, at eligendi, fugit beatae maiores totam pariatur quos expedita voluptas. Unde.
+        Excepturi reiciendis ullam error neque quasi libero, doloremque soluta nulla adipisci ratione molestias. Totam veniam dolore temporibus saepe odit. Nemo et eveniet quibusdam nostrum ex necessitatibus impedit rerum ratione iure!
+        Eveniet cupiditate perspiciatis, tempora iusto laboriosam odit similique sit dolor ex recusandae, veritatis voluptatum earum eius quidem asperiores aliquam molestiae amet accusamus error! Nisi numquam odit aliquid totam aliquam reprehenderit.
+    </p>
+    </div>
+    <br>
+<!--overflow-->
+<div class="overflow">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi possimus illum adipisci dolor perferendis rerum eius! Voluptatum reiciendis, repellendus asperiores, optio rem commodi eos ab deserunt soluta nisi doloremque quam?
+    Ad eveniet praesentium ipsam nesciunt, quaerat suscipit laudantium. Obcaecati sint illum nisi itaque voluptate quibusdam porro perferendis iure voluptatibus, magnam tempora neque praesentium quod, excepturi amet esse quisquam ea aliquam!
+    Unde soluta neque sunt deserunt sequi deleniti. Autem beatae eligendi quasi facilis. Voluptatibus numquam culpa possimus officia assumenda suscipit repellendus? Sed, amet! Placeat impedit, illum esse repellendus praesentium inventore unde!
+    Doloremque laudantium inventore repudiandae aut quasi, necessitatibus repellat ea fuga! Nihil, ipsam commodi! Delectus harum corrupti eveniet culpa numquam debitis repellat reiciendis obcaecati error. Ab soluta officiis laboriosam expedita distinctio.
+    Nihil sapiente doloremque consequatur fugiat molestias a illo temporibus! Illo quae quidem voluptas ipsam dolor dolores saepe necessitatibus quod sint. Esse temporibus labore eum nobis eaque quam distinctio dolor animi!
+    Distinctio earum necessitatibus qui, placeat sunt doloribus nostrum recusandae repellat exercitationem ratione reprehenderit reiciendis culpa omnis quisquam dolore ipsum doloremque error ipsam cumque iusto dicta facilis id? Voluptatem, cumque expedita.
+    Odio omnis explicabo aut maiores vel hic nisi natus sequi unde, delectus doloremque at rerum deleniti fugiat itaque ab minima earum beatae magnam. Ratione ut sit, a debitis repellendus at?
+    Cupiditate sequi ullam praesentium eligendi laboriosam placeat totam accusamus vero atque reiciendis numquam, maiores, impedit earum? Possimus temporibus illo, cupiditate placeat eaque sunt. Dolor ipsam ab quisquam praesentium delectus amet?
+    Deleniti minima omnis ut. Debitis asperiores laborum, libero voluptates iste sequi aut natus, quaerat esse nulla quod voluptatibus neque! Vitae assumenda ea, pariatur sit praesentium cupiditate consequuntur quas ipsa sapiente.
+    Nobis, necessitatibus impedit. Sapiente corrupti amet culpa minus dignissimos, excepturi ullam, dolore quia expedita ut, quas incidunt iste architecto error aut aperiam similique deleniti aspernatur voluptate. Doloribus nemo doloremque dignissimos.
+
+</div>
 </body>
 </html>
